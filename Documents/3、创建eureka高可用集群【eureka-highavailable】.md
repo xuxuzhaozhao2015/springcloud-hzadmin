@@ -123,7 +123,7 @@ eureka:
 
 ### 4、启动三节点eureka
 
-![eureka-highavailable-多启动配置](./images/eureka-highavailable-多启动配置.png)
+![eureka-highavailable-多启动配置](./images/eureka-highavailable的多启动配置.png)
 
 注意：在分别启用三个节点后，各节点均出现在`unavailable-replicas`中
 ![unavailable-replicas](./images/unavailable-replicas.png)
