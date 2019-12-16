@@ -24,6 +24,7 @@
     <modules>
         <module>eureka</module>
         <module>eureka-hi</module>
+        <module>eureka-highavailable</module>
     </modules>
 
     <!-- Spring Cloud 版本序列配置 -->

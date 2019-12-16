@@ -1,0 +1,11 @@
+server:
+  port: 8783
+spring:
+  application:
+    name: eureka-highavailable-hi
+
+eureka:
+  client:
+    service-url:
+      # 只需注册其中一个即可，其他注册中心会同步客户端记录信息
+      defaultZone: http://peer1:8771/eureka/
