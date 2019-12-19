@@ -11,3 +11,8 @@ spring:
           search-paths: config-repo
           username: xuxuzhaozhao@qq.com
           password: zywoaini@1314
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
