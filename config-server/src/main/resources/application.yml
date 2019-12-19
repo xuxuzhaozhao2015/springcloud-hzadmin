@@ -1,0 +1,13 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xuxuzhaozhao2015/springcloud-hzadmin.git
+          search-paths: config-repo
+          username: xuxuzhaozhao@qq.com
+          password: zywoaini@1314
