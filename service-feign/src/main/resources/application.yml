@@ -1,9 +1,19 @@
 server:
-  port: 8765
+  port: 8766
 spring:
   application:
-    name: service-feign
+    name: service-feign-2
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabled: true
+
+    # 熔断器DashBoard: actuator在boot2.0调整后开关web端点的配置，*代表开启所有
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream, info, health
